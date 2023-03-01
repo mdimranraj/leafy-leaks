@@ -23,6 +23,9 @@ function Footer() {
           </div>
           <div className="foot3">
             <h4>Green Team</h4>
+            Md Imran Raj  <a href="https://www.linkedin.com/in/md-imran-raj-952659201/" target='_blank'><img className='linkedIn-img' src='https://drive.google.com/uc?export=download&id=1fW7AugDk_OyfBbZYpes7wnhbLM-5Xdr5'></img></a> <br />
+            Ankush Kumar  <a href="https://www.linkedin.com/in/ankush-kumar-b76335189/" target='_blank'><img className='linkedIn-img' src='https://drive.google.com/uc?export=download&id=1fW7AugDk_OyfBbZYpes7wnhbLM-5Xdr5'></img></a> <br />
+            Jigyanshu Raj <a href="https://www.linkedin.com/in/hashjiggy/" target='_blank'><img className='linkedIn-img' src='https://drive.google.com/uc?export=download&id=1fW7AugDk_OyfBbZYpes7wnhbLM-5Xdr5'></img></a> <br />
           </div>
         </div>
         <div className='imageLogo'>
