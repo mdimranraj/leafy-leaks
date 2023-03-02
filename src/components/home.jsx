@@ -4,11 +4,13 @@ import Card from './card';
 import Quote from './quote';
 import Footer from './footer';
 import Intro from './Intro';
+import SearchBar from './searchbar';
 
 function Home() {
     return (
         <div>
            <Navbar/>
+           <SearchBar/>
            <Intro/>
            <div className='cards-carousel-div' style={{display:"flex"}}>
             <Card/>
