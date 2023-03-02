@@ -1,3 +1,6 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/khyay.css);
+
 .main-page-container{
     position: absolute;
     height: fit-content;
@@ -24,25 +27,26 @@
     left: 77px;
     top: 50px;
 
-
-    font-family: 'Cera Pro';
+    font-family: 'Khyay', sans-serif;
+    /* font-family: 'Cera Pro'; */
     font-style: normal;
     font-weight: 100;
     font-size: 1.2rem;
     line-height: 46px;
 }
 .main-page-first-para{
-position: absolute;
-width: 608px;
-height: fit-content;
-left: 77px;
-top: 100px;
+    position: absolute;
+    width: 608px;
+    height: fit-content;
+    left: 77px;
+    top: 100px;
 
-    font-family: 'Cera Pro';
-font-style: normal;
-font-weight: 500;
-font-size: 1.5rem;
-line-height: 41px;
+    font-family: 'Khyay', sans-serif;
+    /* font-family: 'Cera Pro'; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 41px;
 }
 .carousel-container{
     height: 5rem;

@@ -13,7 +13,7 @@ function Home() {
            <div className='cards-carousel-div' style={{display:"flex"}}>
             <Card/>
             <Card/>
-            <Card/>
+            <Card style={{width:'25rem',height:'40rem'}}/>
             
            </div> 
            <Quote/>
