@@ -8,7 +8,12 @@ function Home() {
     return (
         <div>
            <Navbar/>
-           <Card/>
+           <div className='cards-carousel-div' style={{display:"flex"}}>
+            <Card/>
+            <Card/>
+            <Card/>
+            
+           </div> 
            <Quote/>
            <Footer/>
       </div>
