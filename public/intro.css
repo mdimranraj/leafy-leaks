@@ -13,8 +13,8 @@
     position: absolute;
     height: fit-content;
     width: fit-content;
-    left: 77px;
-    top:10px;
+    left: 0;
+    top:0;
 }
 
 .main-page-first-heading{
@@ -22,13 +22,13 @@
     width: 345px;
     height: fit-content;
     left: 77px;
-    top: 100px;
+    top: 50px;
 
 
     font-family: 'Cera Pro';
     font-style: normal;
-    font-weight: 300;
-    font-size: 1.5rem;
+    font-weight: 100;
+    font-size: 1.2rem;
     line-height: 46px;
 }
 .main-page-first-para{
@@ -36,12 +36,12 @@ position: absolute;
 width: 608px;
 height: fit-content;
 left: 77px;
-top: 150px;
+top: 100px;
 
     font-family: 'Cera Pro';
 font-style: normal;
 font-weight: 500;
-font-size: 1.8rem;
+font-size: 1.5rem;
 line-height: 41px;
 }
 .carousel-container{
