@@ -29,7 +29,7 @@ function Footer() {
           </div>
         </div>
         <div className='imageLogo'>
-        < img src="https://drive.google.com/uc?export=download&id=1i8iQzxti4HNAPGGx1PxvINzAhvNJA6br" alt="logo"/>
+        < img src="https://drive.google.com/uc?export=download&id=11l-zqKjyyVmgYa5f6S8iqijAkhpAvu97" alt="logo"/>
         </div>
       </div>
     );
