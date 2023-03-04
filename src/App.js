@@ -1,16 +1,10 @@
-
-import Home from './components/home';
-
+import Home from "./components/home";
 
 function App() {
   return (
-    
-    
     <div className="App">
-      
       <header className="App-header">
-        <Home/>
-        
+        <Home />
       </header>
     </div>
   );
