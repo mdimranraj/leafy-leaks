@@ -6,6 +6,7 @@ import Footer from './footer';
 import Intro from './Intro';
 import SearchBar from './searchbar';
 import Quotes from './database/quotesdata';
+import Carousel from './Carousel';
 
 
 var q = quoteGenerator();
@@ -24,13 +25,7 @@ function Home() {
            <Navbar/>
            <SearchBar/>
            <Intro/>
-           <div className='cards-carousel-div' style={{display:"flex"}}>
-            <Card/>
-            <Card/>
-            <Card style={{width:'25rem',height:'40rem'}}/>
-            
-           </div> 
-            
+           <Carousel /> 
            <Quote quote = {q.quote} credit = {q.credit} />
            <Footer/>
       </div>
