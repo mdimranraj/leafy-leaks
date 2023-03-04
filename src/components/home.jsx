@@ -22,12 +22,10 @@ function Home() {
 
     return (
         <div>
-           <Navbar/>
            <SearchBar/>
            <Intro/>
            <Carousel /> 
            <Quote quote = {q.quote} credit = {q.credit} />
-           <Footer/>
       </div>
 
     );

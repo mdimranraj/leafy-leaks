@@ -27,16 +27,16 @@ function Navbar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">Blogs</a>
+                <a className="nav-link" href="/blogs">Blogs</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">About Us</a>
+                <a className="nav-link" href="/aboutus">About Us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">Contact</a>
+                <a className="nav-link" href="/contact">Contact</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">My Plants</a>
+                <a className="nav-link" href="/myplants">My Plants</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/"><img class="profile-blank-img" src="https://drive.google.com/uc?export=download&id=1LlZ-cNQVrnfUTFwEg5lCVuFw4OPbd7wg" alt="" srcset=""></img></a>
