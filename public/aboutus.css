@@ -8,7 +8,7 @@
     font-family: 'Khyay', sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 46px;
 }
 .intro-text p{
@@ -17,6 +17,7 @@
     font-weight: 100;
     font-size: 1rem;
     line-height: 41px;
+    color: #353836
 }
 
 .green-team-container{
@@ -41,8 +42,15 @@
 }
 .team-member{
     display: flex;
+    flex-wrap: wrap;
     text-align: left;
     margin: 20px;
+    justify-content: space-between;
+}
+.team-member-left-flex{
+    display: flex;
+    flex-wrap: wrap;
+   
 }
 
 .team-member-img{
@@ -58,6 +66,9 @@
 
 .role{
     font-size: 1rem;
+}
+.social-details{
+    margin: 20px;
 }
 .social-details img{
     width: 50px;
