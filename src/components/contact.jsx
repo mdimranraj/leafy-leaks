@@ -1,4 +1,6 @@
 import React from 'react';
+import GreenTeam from './greenteam';
+
 
 function Contact(){
     return(
@@ -27,6 +29,11 @@ function Contact(){
                 
             </form>
         </div>
+
+        <hr style={{borderTop:"6px dotted grey" , width:"30vw", margin:"0 auto 10px", backgroundColor:"transparent"}}/>
+
+        <h4>Reach the Developers directly</h4>
+        <GreenTeam />
         </>
     );
 }

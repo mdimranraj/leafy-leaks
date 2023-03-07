@@ -9,6 +9,14 @@ h2{
     line-height: 46px;
     color:rgb(53, 54, 54);
 }
+h4{
+    font-family: 'Khyay', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 46px;
+    color:rgb(53, 54, 54);
+}
 h5{
     font-family: 'Khyay', sans-serif;
     font-style: normal;

@@ -21,8 +21,8 @@
 }
 
 .green-team-container{
-    margin: 100px 50px ;
-    padding: 50px 10px;
+    margin: 50px 50px 100px ;
+    padding: 10px 10px 50px;
     position: relative;
     height: fit-content;
     width: inherit;
