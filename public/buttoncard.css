@@ -1,0 +1,14 @@
+.round {
+    border-radius: 50px;
+    width:14rem ;
+    float: right;
+    
+}
+.btn-container {
+    width: 18rem;
+    margin: 0 auto;
+}
+.btncard-container {
+    display: flex;
+   flex-direction: column;
+}

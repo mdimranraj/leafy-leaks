@@ -21,7 +21,7 @@ function Navbar() {
                   Plant Room
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a className="dropdown-item" href="/">Category 1</a></li>
+                  <li><a className="dropdown-item" href="/plantroom">Category 1</a></li>
                   <li><a className="dropdown-item" href="/">Category 2</a></li>
                   <li><a className="dropdown-item" href="/">Category 3</a></li>
                 </ul>
