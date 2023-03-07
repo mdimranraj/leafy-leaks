@@ -22,3 +22,11 @@
     font-weight: 500;
     
 }
+
+.navbar {
+    padding: 0;
+}
+.container-fluid {
+    background-color: #F5FFF8;
+    padding: 0;
+}
