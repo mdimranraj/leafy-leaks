@@ -3,10 +3,10 @@ import Navbar from './navbar';
 import Card from './card';
 import Quote from './quote';
 import Footer from './footer';
-import Intro from './Intro';
+import Intro from './intro';
 import SearchBar from './searchbar';
 import Quotes from './database/quotesdata';
-import Carousel from './Carousel';
+import Carousel from './carousel';
 
 
 var q = quoteGenerator();
