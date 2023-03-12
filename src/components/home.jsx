@@ -2,7 +2,7 @@ import React from 'react';
 import Quote from './quote';
 import Intro from './Intro';
 import Quotes from './database/quotesdata';
-import Carousel from './carousel';
+import Carousel from './Carousel';
 
 
 var q = quoteGenerator();
