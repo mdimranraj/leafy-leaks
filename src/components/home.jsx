@@ -1,10 +1,6 @@
 import React from 'react';
-import Navbar from './navbar';
-import Card from './card';
 import Quote from './quote';
-import Footer from './footer';
-import Intro from './intro';
-import SearchBar from './searchbar';
+import Intro from './Intro';
 import Quotes from './database/quotesdata';
 import Carousel from './carousel';
 
