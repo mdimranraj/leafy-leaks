@@ -9,6 +9,7 @@ import Blogs from './components/blogs';
 import Contact from './components/contact';
 import MyPlants from './components/myplants';
 import AboutUs from './components/about';
+import PlantDetails from './components/plantdetails';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
               <Route path='/aboutus' element={<AboutUs/>} />
               <Route path='/contact' element={<Contact/>} />
               <Route path='/myplants' element={<MyPlants/>} />
+              <Route path='/plantdetails' element={<PlantDetails/>} />
           </Routes>
           <Footer />
           </Router>

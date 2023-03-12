@@ -26,7 +26,8 @@
     height: fit-content;
     left: 77px;
     top: 50px;
-
+    margin:0;
+    
     font-family: 'Khyay', sans-serif;
     /* font-family: 'Cera Pro'; */
     font-style: normal;

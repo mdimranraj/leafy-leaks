@@ -22,7 +22,6 @@ function Home() {
 
     return (
         <div>
-           <SearchBar/>
            <Intro/>
            <Carousel /> 
            <Quote quote = {q.quote} credit = {q.credit} />

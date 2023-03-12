@@ -8,44 +8,44 @@ function Carousel(){
         <div class="slide-track">
             
             <div class="slide">
-                <Card />
+                <a href="\plantdetails"> <Card/> </a>
             
             </div>
             <div class="slide">
-                <Card />
+            <a href="\plantdetails"> <Card/> </a>
                 
             </div>
             <div class="slide">
-                <Card />
+            <a href="\plantdetails"> <Card/> </a>
                 
             </div>
             <div class="slide">
-                <Card />
+            <a href="\plantdetails"> <Card/> </a>
                
             </div>
             <div class="slide">
-                <Card />
+            <a href="\plantdetails"> <Card/> </a>
                 
             </div>
             <div class="slide">
-                <Card />
+            <a href="\plantdetails"> <Card/> </a>
             </div>
             <div class="slide">
-                <Card />
+            <a href="\plantdetails"> <Card/> </a>
                
             </div>
             <div class="slide">
-                <Card />
+            <a href="\plantdetails"> <Card/> </a>
                
             </div>
 
             <div class="slide">
-                <Card />
+            <a href="\plantdetails"> <Card/> </a>
                
             </div>
 
             <div class="slide">
-                <Card />
+            <a href="\plantdetails"> <Card/> </a>
                 
             </div>
             
