@@ -2,12 +2,9 @@ import React from "react";
 import { createElement } from "react";
 import BtnCard from "./btncard";
 import DecorativeData from "./database/decorative";
+import { Outlet } from "react-router-dom";
 
-// function createCards(props){
-        
-//     return createElement(BtnCard , {eachData : props.eachData});
-    
-// }
+
 
 function PlantRoom() {
 
@@ -45,8 +42,10 @@ function PlantRoom() {
                     
                 </div>
             </div>
-
+            
+            <Outlet />
         </div>
+        
     )
 }
 

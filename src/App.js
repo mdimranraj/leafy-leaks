@@ -10,6 +10,7 @@ import Contact from './components/contact';
 import MyPlants from './components/myplants';
 import AboutUs from './components/about';
 import PlantDetails from './components/plantdetails';
+import GreenTeam from './components/greenteam';
 
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
           <Navbar />
           <Routes>
               <Route exact path='/' element={<Home />} />
-              <Route path='/plantroom' element={<PlantRoom/>} />
+              <Route path='/plantroom' element={<PlantRoom/>}>
+                <Route path='decoration' element={<GreenTeam/>} />
+              </Route>  
               <Route path='/blogs' element={<Blogs/>} />
               <Route path='/aboutus' element={<AboutUs/>} />
               <Route path='/contact' element={<Contact/>} />
