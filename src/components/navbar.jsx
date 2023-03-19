@@ -16,7 +16,11 @@ function Navbar() {
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/">Home</a>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/plantroom">Plant Room</a>
+              </li>
+
+              {/* <li className="nav-item dropdown">
                 <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Plant Room
                 </a>
@@ -25,7 +29,7 @@ function Navbar() {
                   <li><a className="dropdown-item" href="/">Category 2</a></li>
                   <li><a className="dropdown-item" href="/">Category 3</a></li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="/blogs">Blogs</a>
               </li>

@@ -1,0 +1,49 @@
+.quote-container{
+    margin: 200px auto;
+    position: relative;
+    height: 40vh;
+    width: 60vw;
+    
+    background-color: #C2FFD4;
+    border-radius: 20px;
+    box-shadow: 0px 3px 7px 1px rgb(65, 62, 62) ;
+    }
+    .quote-text{
+        width: 40vw;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom:0;
+        margin: auto;
+    }
+    .quote{
+        font-family: 'Lusitana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.8;
+        margin: 0 auto;
+    }
+    .credit{
+       width: fit-content; 
+       margin-left: auto;
+       margin-top: auto;
+       margin-bottom: 0;
+       margin-right: 0;;
+    }
+    .quote-open{
+        position: absolute;
+        top:10px;
+        left:10px;
+        width: 2rem;
+        height: 2rem;
+    }
+    .quote-close{
+        position: absolute;
+        bottom:10px;
+        right: 10px;
+        width: 2rem;
+        height: 2rem;
+    }

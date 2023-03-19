@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./card";
 
-function BtnCard() {
+function BtnCard(props) {
     return (
         <div>
 
             <div className="btncard-container">
-                <Card />
+                <Card  eachCard={props.eachData} />
                 <div className="btn-container">
                     <button type="button" class="btn btn-success round">Success</button>
                 </div>

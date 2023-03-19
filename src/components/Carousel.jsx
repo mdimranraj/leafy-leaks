@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './card';
+import DecorativeData from './database/decorative';
 
 function Carousel(){
     return (
@@ -8,44 +9,44 @@ function Carousel(){
         <div class="slide-track">
             
             <div class="slide">
-                <a href="\plantdetails"> <Card/> </a>
+                <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a>
             
             </div>
             <div class="slide">
-            <a href="\plantdetails"> <Card/> </a>
+            <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a>
                 
             </div>
             <div class="slide">
-            <a href="\plantdetails"> <Card/> </a>
+            <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a>
                 
             </div>
             <div class="slide">
-            <a href="\plantdetails"> <Card/> </a>
+            <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/>  </a>
                
             </div>
             <div class="slide">
-            <a href="\plantdetails"> <Card/> </a>
+            <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a>
                 
             </div>
             <div class="slide">
-            <a href="\plantdetails"> <Card/> </a>
+            <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a>
             </div>
             <div class="slide">
-            <a href="\plantdetails"> <Card/> </a>
+            <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a>
                
             </div>
             <div class="slide">
-            <a href="\plantdetails"> <Card/> </a>
+            <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a>
                
             </div>
 
             <div class="slide">
-            <a href="\plantdetails"> <Card/> </a>
+            <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a>
                
             </div>
 
             <div class="slide">
-            <a href="\plantdetails"> <Card/> </a>
+            <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a>
                 
             </div>
             

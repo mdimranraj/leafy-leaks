@@ -1,0 +1,24 @@
+.logo-img{
+    width: 200px;
+    height: 50px;
+}
+.profile-blank-img{
+    width: 20px;
+    height: 20px;
+}
+.navbar-right-items{
+    width: fit-content;
+    margin-left: auto ;
+
+}
+.navbar-right-items li{
+    margin-left: 20px;
+    margin-right:10px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    /* font-family: 'Cera Pro';
+   font-style:normal; */
+    font-weight: 500;
+    
+}

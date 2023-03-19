@@ -1,0 +1,34 @@
+.search-bar-container{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: 100px;
+    border-radius: 15px;
+    border:solid 1px black;
+}
+
+.search-bar{
+    width: 80vw;
+    margin: 0 20px;
+    border: none;
+    border-radius: 15px;
+
+}
+.search-bar:focus{
+    outline:none;
+}
+.search-bar-button{
+    width: 25px;
+    height: 25px;
+    margin-left: 0;
+    margin-right: 10px ;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #13AA52;
+}
+
+.material-symbols-outlined { 
+  width:25px;
+  height: 20px;
+  color: aliceblue;
+}

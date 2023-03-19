@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/earlyaccess/khyay.css);
+
+h2{
+    margin: 50px 0 10px;
+    font-family: 'Khyay', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 46px;
+    color:rgb(53, 54, 54);
+}
+h4{
+    font-family: 'Khyay', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 46px;
+    color:rgb(53, 54, 54);
+}
+h5{
+    font-family: 'Khyay', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 46px;
+    color:rgb(83, 85, 86);
+}
+
+.container{
+    flex-wrap: wrap;
+}
+.row{
+    margin:10px;
+    width: inherit;
+}
+textarea{
+    width: inherit;
+    min-height: 200px;
+}
+input{
+    width: inherit;
+}
+
+.btn{
+    margin: 0 auto;
+    width: 300px;
+}
+.contact-container{
+    margin: 30px auto 100px;
+    height: fit-content;
+    width: fit-content;
+    
+    background-color: #C2FFD4;
+    border-radius: 20px;
+    box-shadow: 0px 3px 7px 1px rgb(65, 62, 62) ;
+}
