@@ -18,6 +18,29 @@ const FeaturedData = [
     {
         id : "",
     
+        plantName : "Lily",
+    
+        scientificDetails: {
+            scientificName: "",
+            family: "Liliaceae",
+            kingdom: "Plantae"
+            },
+    
+        otherNames: "",
+    
+        imgURL : "https://drive.google.com/uc?export=download&id=1x2C8xrj162rN3_SP_x9mrrpKuhD8xHhg",
+    
+        description: "The Liliaceae family of plants is categorised as monocotyledonous, perennial, herbaceous, bulbous blooming plants because they have simple trichomes (root hairs) and contractile roots. The blossoms may appear as a single flower at the tip of the stalk, a cluster of flowers, or as an arrangement down the stem (inflorescence). The Northern Hemisphere's temperate zones make up the majority of the distribution of the Liliaceae. Southwest Asia to China is where the diversity is concentrated. They are found in a variety of habitats, including deciduous woodlands, Mediterranean scrub, arctic tundra, and grasslands, steppes, and alpine meadows. Some Liliaceae genera are widely cultivated in both private and public spaces.Lilies in particular, have significant symbolic and ornamental value and are frequently depicted in paintings and decorative arts. They are also a significant economic product. Several of their genera, Lilium in particular, endure substantial herbivory pressure from deer in various locations, both wild and tame.",
+    
+        usesAndBenefits : "The root, underground stem (rhizome), and dried flower tips are used to make medicine. Lily is used to treat heart issues such as heart failure and irregular heartbeat. It is also used to treat urinary tract infections (UTIs), kidney stones, weak labour contractions, epilepsy, fluid retention (edoema), strokes with paralysis, eye infections (conjunctivitis), and leprosy.",
+    
+        howToGrow : "Loosen the soil 12 to 15 inches deep. Put the bulbs three times as deep as the bulb's height and pointy side up in the hole. Deep planting enables the developing stem to send out roots, which aid in plant stability and may remove the need for staking. After blooming, the flower stems can be cut back but leave the foliage until it browns and dies back to the ground completely. Bulbs gather energy for next year through the leaves."
+        
+    }
+    ,
+    {
+        id : "",
+    
         plantName : "Orchid",
     
         scientificDetails: {
@@ -53,13 +76,35 @@ const FeaturedData = [
     
         otherNames: "Lale in turkish",
     
-        imgURL : "https://drive.google.com/file/d/1_C53NFB5Ru_Ee-JqPNpBjHXCFSzMbZBS/view?usp=sharing",
+        imgURL : "https://drive.google.com/uc?export=download&id=1_BA3xmhW5BCu1kOSu0fDBKtQ7qzlUt9r",
     
         description: "The tulip produces two or three thick bluish green leaves that are clustered at the base of the plant. The usually solitary bell-shaped flowers have three petals and three sepals. There are six free stamens, and the three-lobed ovary is terminated by a sessile three-lobed stigma. The fruit is a capsule with many seeds. Many garden tulips can be propagated only by their scaly bulbs. Tulip flowers occur in a wide range of colours except true blue—from purest white through all shades of yellow and red to brown and deepest purple to almost black. Almost 4,000 horticultural varieties have been developed from a number of species and hybrids. Generally, solid-coloured tulips are spoken of as “self-coloured,” while streaked blossoms are called “broken.” The phenomenon of colour streaks in tulips is due to a harmless virus infection that causes the self colour to disappear in certain zonal patterns, leaving the flower’s white or yellow underlying colour to show through in irregular streaks.",
     
         usesAndBenefits : "Aesthetic Uses: Beautification, Bouquets, Cottage Garden and Showy Purposes.Tulip medicinal uses are Have diuretic properties, It has anti-septic properties. Best remedy for Cough & Cold, Reduces risk of cancer, Used for sinus pain, hay fever and headache are some of the Tulip health benefits. Cosmetic use of plant : Benefits of Tulip also comprise of cosmetic uses.",
     
         howToGrow : "Tulips thrive in most soil types, but prefer well-drained loam. In the autumn, the bulbs are frequently planted in compost-enriched soil at a depth of 10 to 20 cm (4 to 8 inches). They will flower every year for a few years until dying. It is typical commercial practise to remove the bulbs once the blooms have finished blooming and the foliage has turned yellow, and the bulbs are then stored in a cool, dry spot until autumn replanting. Tulips are frequently pest-resistant in the garden.",
+        
+    }
+    ,
+    {
+        id : "",
+    
+        plantName : "Daisy",
+    
+        scientificDetails: {
+            scientificName: "Bellis perennis",
+            family: "Aster Family(Asteraceae",
+            kingdom: "Plantae"
+            },
+        otherNames: "",
+    
+        imgURL : "https://drive.google.com/uc?export=download&id=19AAzrAer99Nxvyq3CqClc0wQuCHBa8eb",
+    
+        description: "Daisy is one of the most popular perennial flowers in garden beds and pots all around the world. These low-maintenance flowers come in a range of colours and are quite simple to maintain. There are almost 20,000 different daisy kinds, so there is something for every grower. Bellis perennis is native to western, central and northern Europe, including remote islands such as the Faroe Islands, but has become widely naturalized in most temperate regions. Gardners love them for their bright colors and how generally easy they are to grow, and admirers of daisies see these flowers as symbolizing innocence and purity.These flowers may seem simple to some, but that is precisely what makes them so wholesome. They are easy to grow, and make a welcome addition to just about any garden, regardless of color or theme. ",
+    
+        usesAndBenefits : "Daisies are actually closely related to artichokes, so they're a great source of vitamin C. Additionally, daisies also have lots of medicinal properties—they're known to slow bleeding, relieve indigestion, and soothe coughs.",
+    
+        howToGrow : "The species generally blooms from early to midsummer.It can generally be grown where minimum temperatures are above −35 °C (−30 °F), in full sun to partial shade conditions, and requires little or no maintenance. It has no known serious insect or disease problems and can generally be grown in most well-drained soils. The plant may be propagated either by seed after the last frost, or by division after flowering. ",
         
     }
 ]

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {Link, Outlet } from "react-router-dom";
 import Featured from "./featured";
-
+import { useState } from "react";
 function MoreToLess(){
     var curr = document.getElementsByClassName("more-less")[0].innerHTML;
     if(curr === "more..."){
@@ -11,37 +11,42 @@ function MoreToLess(){
     return;
 }
 
-function PlantRoom() {
+function PlantRoom(props) {
 
+    const [currPage,setCurrPage] = useState(props.currState);
+   
     return (
         <div className="plantroom-container">
             <div className="category-buttons">
                 <div>Categories</div>
             
                 <div className="cat-buttons-visible">
-                    <Link to="/plantroom/decoration"><button type="button" class="btn btn-light cat-but">Decorative <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1EzbdjMqgKspNGVVqVnR_7XiGJLbJPuuI" alt="cat-img"></img></button> </Link>
-                    <button type="button" class="btn btn-light cat-but">Ayurvedic <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1Sj50wFWJ8hF8otv2fIgIadSSSUfhkAz7" alt="cat-img"></img></button>
-                    <button type="button" class="btn btn-light cat-but">Crops <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1TBNIoGUFug21wMrYBAhvc384E67tySuM" alt="cat-img"></img></button>
-                    <button type="button" class="btn btn-light cat-but">Bonsai <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1cNk5-dBB8UD5Zq_36RMqbcS0AEJLwXU-" alt="cat-img"></img></button>
-                    <button type="button" class="btn btn-light cat-but">Vegetables <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1H9t2oVV7mMAVpSyZdsaB-FKT9SPgcjbb" alt="cat-img"></img></button>
-                    <button type="button" class="btn btn-light cat-but">Fruits <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=11HVGRKC7E9mM23yTaynbVmqn9pAVcgZ_"></img></button>
+                    <Link to="/plantroom/featured"><button type="button" onClick = {()=>{setCurrPage("Featuredd")}} class="btn btn-light cat-but">Featured <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=11HVGRKC7E9mM23yTaynbVmqn9pAVcgZ_"></img></button></Link>
+                    <Link to="/plantroom/decoration"><button type="button" onClick = {()=>{setCurrPage("Decorations")}}class="btn btn-light cat-but">Decorative <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1EzbdjMqgKspNGVVqVnR_7XiGJLbJPuuI" alt="cat-img"></img></button> </Link>
+                    <button type="button" onClick = {()=>{setCurrPage("Ayurvedic")}} class="btn btn-light cat-but">Ayurvedic <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1Sj50wFWJ8hF8otv2fIgIadSSSUfhkAz7" alt="cat-img"></img></button>
+                    <button type="button" onClick = {()=>{setCurrPage("Crops")}} class="btn btn-light cat-but">Crops <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1TBNIoGUFug21wMrYBAhvc384E67tySuM" alt="cat-img"></img></button>
+                    <button type="button" onClick = {()=>{setCurrPage("Bonsai")}} class="btn btn-light cat-but">Bonsai <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1cNk5-dBB8UD5Zq_36RMqbcS0AEJLwXU-" alt="cat-img"></img></button>
+                    <button type="button" onClick = {()=>{setCurrPage("Vegetables")}} class="btn btn-light cat-but">Vegetables <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1H9t2oVV7mMAVpSyZdsaB-FKT9SPgcjbb" alt="cat-img"></img></button>
+                    
                 </div>
 
                 <div class="collapse cat-buttons-hidden" id="collapseExample">
-                    <button type="button" class="btn btn-light cat-but">Pulses <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1ETNvFl5jbMvEGhua1ouuYLT2pOZTqbLk"></img></button>
-                    <button type="button" class="btn btn-light cat-but">Trees <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1XiUuQbbXgLcAJyocYZHfL6WEaUH6VJZJ"></img></button>
-                    <button type="button" class="btn btn-light cat-but">Herbs <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1JmDZ816fKbPfWsvEndf4GzZZh0FRUXsn"></img></button>
-                    <button type="button" class="btn btn-light cat-but">Climbers <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1RLZXEESykraj62vJ2esvsA0wL6e5CrEs"></img></button>
-                    <button type="button" class="btn btn-light cat-but">Creepers <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1VDuA1cG6uaOeTdFadT0olE-Iz7Umh1Zw"></img></button>
+                    <button type="button" onClick = {()=>{setCurrPage("Fruits")}} class="btn btn-light cat-but">Fruits <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=11HVGRKC7E9mM23yTaynbVmqn9pAVcgZ_"></img></button>
+                    <button type="button" onClick = {()=>{setCurrPage("Pulses")}} class="btn btn-light cat-but">Pulses <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1ETNvFl5jbMvEGhua1ouuYLT2pOZTqbLk"></img></button>
+                    <button type="button" onClick = {()=>{setCurrPage("Trees")}} class="btn btn-light cat-but">Trees <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1XiUuQbbXgLcAJyocYZHfL6WEaUH6VJZJ"></img></button>
+                    <button type="button" onClick = {()=>{setCurrPage("Herbs")}} class="btn btn-light cat-but">Herbs <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1JmDZ816fKbPfWsvEndf4GzZZh0FRUXsn"></img></button>
+                    <button type="button" onClick = {()=>{setCurrPage("Climbers")}} class="btn btn-light cat-but">Climbers <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1RLZXEESykraj62vJ2esvsA0wL6e5CrEs"></img></button>
+                    <button type="button" onClick = {()=>{setCurrPage("Creepers")}} class="btn btn-light cat-but">Creepers <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1VDuA1cG6uaOeTdFadT0olE-Iz7Umh1Zw"></img></button>
                 </div>
                 <a className="more-less" onClick={MoreToLess} data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                     more...
                 </a>
             </div>
-            
+
+            {(currPage === "Featured")?<Featured/>:""}
             <Outlet />
 
-            <Featured/>
+           
         </div>
         
     )

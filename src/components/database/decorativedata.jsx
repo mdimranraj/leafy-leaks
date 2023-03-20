@@ -55,7 +55,7 @@ const DecorativeData = [
     
         otherNames: "",
     
-        imgURL : "https://drive.google.com/file/d/1savCovpkJ8Z0cl5YpX0_wRvDV5aNDsRN/view?usp=sharing",
+        imgURL : "https://drive.google.com/uc?export=download&id=1x2C8xrj162rN3_SP_x9mrrpKuhD8xHhg",
     
         description: "The Liliaceae family of plants is categorised as monocotyledonous, perennial, herbaceous, bulbous blooming plants because they have simple trichomes (root hairs) and contractile roots. The blossoms may appear as a single flower at the tip of the stalk, a cluster of flowers, or as an arrangement down the stem (inflorescence). The Northern Hemisphere's temperate zones make up the majority of the distribution of the Liliaceae. Southwest Asia to China is where the diversity is concentrated. They are found in a variety of habitats, including deciduous woodlands, Mediterranean scrub, arctic tundra, and grasslands, steppes, and alpine meadows. Some Liliaceae genera are widely cultivated in both private and public spaces.Lilies in particular, have significant symbolic and ornamental value and are frequently depicted in paintings and decorative arts. They are also a significant economic product. Several of their genera, Lilium in particular, endure substantial herbivory pressure from deer in various locations, both wild and tame.",
     
@@ -80,7 +80,7 @@ const DecorativeData = [
             },
         otherNames: "",
     
-        imgURL : "https://drive.google.com/file/d/1nemc1m0UVsjkkJcH8ITN3qwWG5YFAnK1/view?usp=sharing",
+        imgURL : "https://drive.google.com/uc?export=download&id=19AAzrAer99Nxvyq3CqClc0wQuCHBa8eb",
     
         description: "Daisy is one of the most popular perennial flowers in garden beds and pots all around the world. These low-maintenance flowers come in a range of colours and are quite simple to maintain. There are almost 20,000 different daisy kinds, so there is something for every grower. Bellis perennis is native to western, central and northern Europe, including remote islands such as the Faroe Islands, but has become widely naturalized in most temperate regions. Gardners love them for their bright colors and how generally easy they are to grow, and admirers of daisies see these flowers as symbolizing innocence and purity.These flowers may seem simple to some, but that is precisely what makes them so wholesome. They are easy to grow, and make a welcome addition to just about any garden, regardless of color or theme. ",
     
@@ -130,7 +130,7 @@ const DecorativeData = [
     
         otherNames: "Lale in turkish",
     
-        imgURL : "https://drive.google.com/file/d/1_C53NFB5Ru_Ee-JqPNpBjHXCFSzMbZBS/view?usp=sharing",
+        imgURL : "https://drive.google.com/uc?export=download&id=1_BA3xmhW5BCu1kOSu0fDBKtQ7qzlUt9r",
     
         description: "The tulip produces two or three thick bluish green leaves that are clustered at the base of the plant. The usually solitary bell-shaped flowers have three petals and three sepals. There are six free stamens, and the three-lobed ovary is terminated by a sessile three-lobed stigma. The fruit is a capsule with many seeds. Many garden tulips can be propagated only by their scaly bulbs. Tulip flowers occur in a wide range of colours except true blue—from purest white through all shades of yellow and red to brown and deepest purple to almost black. Almost 4,000 horticultural varieties have been developed from a number of species and hybrids. Generally, solid-coloured tulips are spoken of as “self-coloured,” while streaked blossoms are called “broken.” The phenomenon of colour streaks in tulips is due to a harmless virus infection that causes the self colour to disappear in certain zonal patterns, leaving the flower’s white or yellow underlying colour to show through in irregular streaks.",
     

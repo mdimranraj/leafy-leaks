@@ -11,19 +11,22 @@ import MyPlants from './components/myplants';
 import AboutUs from './components/about';
 import PlantDetails from './components/plantdetails';
 import Decoration from './components/decoration';
+import Featured from './components/featured';
 
 
 function App() {
+  let str  = "Featured";
   return (
     <div className="App">
       <header className="App-header">
-        
+          
           <Router>
           <Navbar />
           <Routes>
               <Route exact path='/' element={<Home />} />
-              <Route path='/plantroom' element={<PlantRoom/>}>
+              <Route path='/plantroom' element={<PlantRoom currState={str}/>}>
                 <Route path='decoration' element={<Decoration/>} />
+                <Route path='featured' element={<Featured/>} />
               </Route>  
               <Route path='/blogs' element={<Blogs/>} />
               <Route path='/aboutus' element={<AboutUs/>} />
