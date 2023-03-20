@@ -1,8 +1,6 @@
 import React from "react";
-import { createElement } from "react";
-import BtnCard from "./btncard";
-import DecorativeData from "./database/decorative";
-import { Outlet } from "react-router-dom";
+import {Link, Outlet } from "react-router-dom";
+import Featured from "./featured";
 
 
 
@@ -14,7 +12,7 @@ function PlantRoom() {
                 <div>Categories</div>
             
                 <div className="cat-buttons-visible">
-                    <button type="button" class="btn btn-light cat-but">Decorative <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1EzbdjMqgKspNGVVqVnR_7XiGJLbJPuuI" alt="cat-img"></img></button>
+                    <Link to="/plantroom/decoration"><button type="button" class="btn btn-light cat-but">Decorative <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1EzbdjMqgKspNGVVqVnR_7XiGJLbJPuuI" alt="cat-img"></img></button> </Link>
                     <button type="button" class="btn btn-light cat-but">Ayurvedic <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1Sj50wFWJ8hF8otv2fIgIadSSSUfhkAz7" alt="cat-img"></img></button>
                     <button type="button" class="btn btn-light cat-but">Crops <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1TBNIoGUFug21wMrYBAhvc384E67tySuM" alt="cat-img"></img></button>
                     <button type="button" class="btn btn-light cat-but">Bonsai <img className="cat-img" src="https://drive.google.com/uc?export=download&id=1cNk5-dBB8UD5Zq_36RMqbcS0AEJLwXU-" alt="cat-img"></img></button>
@@ -33,17 +31,10 @@ function PlantRoom() {
                     more...
                 </a>
             </div>
-
-            <div className="frequently-searched">
-                <h2>Frequently Searched</h2>
-
-                <div className="frequent-container" >
-                    {DecorativeData.map((eachDecData)=>  createElement(BtnCard , {eachData : eachDecData})    )}
-                    
-                </div>
-            </div>
             
             <Outlet />
+
+            <Featured/>
         </div>
         
     )

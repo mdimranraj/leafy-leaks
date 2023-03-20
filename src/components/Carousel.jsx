@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './card';
-import DecorativeData from './database/decorative';
+import DecorativeData from './database/decorativedata';
 
 function Carousel(){
     return (
