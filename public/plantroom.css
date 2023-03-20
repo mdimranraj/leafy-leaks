@@ -36,3 +36,7 @@
     margin: 20px 10px;
     flex-wrap: wrap;
 }
+.more-less{
+    width: fit-content;
+    margin: 0 auto;
+}

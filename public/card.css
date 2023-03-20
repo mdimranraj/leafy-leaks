@@ -15,7 +15,7 @@
     top: 0;
     left: 0;
     width: 15rem;
-    height: 25rem;
+    height: 20rem;
     z-index: 10;
 }
 
@@ -23,7 +23,7 @@
 
     position: absolute !important;
     height: 15rem !important;;
-    top: 150px;
+    top: 110px;
     left: 60px;
     right: 10px;
     z-index: 8;

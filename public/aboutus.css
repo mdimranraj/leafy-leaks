@@ -55,7 +55,8 @@
 
 .team-member-img{
     margin: 10px;
-    width: 100px;
+    width: 8rem;
+    height: 10rem;
     border: 2px solid black;
     border-radius: 50px;
 }

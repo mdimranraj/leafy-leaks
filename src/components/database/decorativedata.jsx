@@ -1,6 +1,12 @@
+// Nomenclature for ids = First letter of Filename/Category + 
+//                             first letter of PlantName + 
+//                             3rd letter of PlantName + 
+//                             orderedNumber in the file 
+
+
 const DecorativeData = [
     {
-        id : "",
+        id : "DRS1",
         plantName : "Rose",
         scientificDetails: {
             scientificName: "",

@@ -2,13 +2,16 @@ import React from 'react';
 import SearchBar from './searchbar';
 import Card from './card';
 
-function PlantDetail(){
+const det = {
+    plantName: "rose"
+}
+function PlantDetails(){
     return(<>
         <SearchBar/>
 
         <div className='plant-detail-container'>
             <div className='plant-detail-box-1'>
-                <div className="box-1-card-holder"><Card /></div>
+                <div className="box-1-card-holder"><Card eachCard={det}/></div>
                 <div className='box-1-title'>
                     <h2>Plant Name</h2>
                     <table>
@@ -57,4 +60,4 @@ Roses can be found in abundance in gardens. They can also be found in vineyards.
     );
 }
 
-export default PlantDetail;
+export default PlantDetails;

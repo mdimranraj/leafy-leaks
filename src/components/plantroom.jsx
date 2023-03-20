@@ -2,7 +2,14 @@ import React from "react";
 import {Link, Outlet } from "react-router-dom";
 import Featured from "./featured";
 
-
+function MoreToLess(){
+    var curr = document.getElementsByClassName("more-less")[0].innerHTML;
+    if(curr === "more..."){
+        document.getElementsByClassName("more-less")[0].innerHTML = "less...";
+    }
+    else document.getElementsByClassName("more-less")[0].innerHTML = "more...";  
+    return;
+}
 
 function PlantRoom() {
 
@@ -27,7 +34,7 @@ function PlantRoom() {
                     <button type="button" class="btn btn-light cat-but">Climbers <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1RLZXEESykraj62vJ2esvsA0wL6e5CrEs"></img></button>
                     <button type="button" class="btn btn-light cat-but">Creepers <img className="cat-img" alt="cat-img" src="https://drive.google.com/uc?export=download&id=1VDuA1cG6uaOeTdFadT0olE-Iz7Umh1Zw"></img></button>
                 </div>
-                <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a className="more-less" onClick={MoreToLess} data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                     more...
                 </a>
             </div>
