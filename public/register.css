@@ -1,15 +1,13 @@
 .auth-form{
-    margin: auto;
-    width: 40vw;
-    height: 40vh;
-    min-height: fit-content;
-    
+    margin: 50px auto 20px;
+    padding: 20px;
+    width: 40vw; 
     background-color: #C2FFD4;
     border-radius: 20px;
     box-shadow: 0px 3px 7px 1px rgb(65, 62, 62) ;
 }
 .auth-form h3{
-    padding: 50px !important;
+    padding: 20px !important;
 }
 .form-label{
     min-width: fit-content;
