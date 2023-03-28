@@ -1,9 +1,26 @@
-
-.form-label{
+.auth-form{
+    margin: auto;
     width: 40vw;
+    height: 40vh;
+    min-height: fit-content;
+    
+    background-color: #C2FFD4;
+    border-radius: 20px;
+    box-shadow: 0px 3px 7px 1px rgb(65, 62, 62) ;
+}
+.auth-form h3{
+    padding: 50px !important;
+}
+.form-label{
+    min-width: fit-content;
+    width: 30vw;
+    text-align: left;
 }
 .form-control{
-    width: 40vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 30vw;
+    margin:0 auto;
+}
+.each-form{
+    width: fit-content;
+    margin: 20px auto;
 }
