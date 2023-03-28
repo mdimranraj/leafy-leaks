@@ -1,8 +1,8 @@
 import React from 'react';
-import Quote from './quote';
-import Intro from './Intro';
-import Quotes from './database/quotesdata';
-import Carousel from './Carousel';
+import Quote from '../components/quote';
+import Intro from '../components/Intro';
+import Quotes from '../database/quotesdata';
+import Carousel from '../components/Carousel';
 
 
 var q = quoteGenerator();

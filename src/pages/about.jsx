@@ -1,5 +1,5 @@
 import React from 'react';
-import GreenTeam from './greenteam';
+import GreenTeam from '../components/greenteam';
 
 function About () {
     return (

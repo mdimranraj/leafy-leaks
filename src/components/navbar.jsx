@@ -41,7 +41,10 @@ function Navbar() {
                 <Link className="nav-link" to="/contact">Contact</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/myplants">My Plants</Link>
+                <Link className="nav-link" to="/register">Register</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">Login</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/"><img class="profile-blank-img" src="https://drive.google.com/uc?export=download&id=1LlZ-cNQVrnfUTFwEg5lCVuFw4OPbd7wg" alt="" srcset=""></img></Link>

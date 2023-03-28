@@ -1,0 +1,9 @@
+
+.form-label{
+    width: 40vw;
+}
+.form-control{
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}

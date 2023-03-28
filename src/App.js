@@ -1,17 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import Home from "./components/home";
+import Home from "./pages/home";
 import Navbar from './components/navbar';
 import Footer from './components/footer';
-import PlantRoom from './components/plantroom';
-import Blogs from './components/blogs';
+import PlantRoom from './pages/plantroom';
+import Blogs from './pages/blogs';
 import Contact from './components/contact';
 import MyPlants from './components/myplants';
-import AboutUs from './components/about';
+import AboutUs from './pages/about';
 import PlantDetails from './components/plantdetails';
 import Decoration from './components/decoration';
 import Featured from './components/featured';
+import Register from './pages/register';
+import Login from './pages/login';
 
 
 function App() {
@@ -31,7 +33,8 @@ function App() {
               <Route path='/blogs' element={<Blogs/>} />
               <Route path='/aboutus' element={<AboutUs/>} />
               <Route path='/contact' element={<Contact/>} />
-              <Route path='/myplants' element={<MyPlants/>} />
+              <Route path='/register' element={<Register/>} />
+              <Route path='/login' element={<Login/>} />
               <Route path='/plantdetails' element={<PlantDetails/>} />
           </Routes>
           <Footer />

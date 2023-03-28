@@ -1,11 +1,17 @@
 import React from 'react';
 import SearchBar from './searchbar';
 import Card from './card';
+// import { useContext } from 'react';
+// import { ScoreContext , UserContext} from './card';
 
 const det = {
     plantName: "rose"
 }
 function PlantDetails(){
+
+    // const user = useContext(UserContext);
+    // const marks = useContext(ScoreContext);
+
     return(<>
         <SearchBar/>
 
@@ -55,7 +61,8 @@ Roses can be found in abundance in gardens. They can also be found in vineyards.
                 </div>
             </div>
         </div>
-
+        {/* <h1>{user}</h1>
+        <h2>{marks}</h2> */}
         </>
     );
 }

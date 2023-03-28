@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import {Link, Outlet } from "react-router-dom";
-import Featured from "./featured";
+import Featured from "../components/featured";
 import { useState } from "react";
 function MoreToLess(){
     var curr = document.getElementsByClassName("more-less")[0].innerHTML;

@@ -1,7 +1,11 @@
 import React from 'react';
 import Card from './card';
-import FeaturedData from './database/featureddata';
-import DecorativeData from './database/decorativedata';
+import FeaturedData from '../database/featureddata';
+import DecorativeData from '../database/decorativedata';
+
+function sendCardDetails(){
+    console.log("Hello I am clicked");
+}
 
 function Carousel(){
     return (

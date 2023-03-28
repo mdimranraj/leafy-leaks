@@ -1,7 +1,7 @@
 import React from  'react';
 import { createElement } from "react";
 import BtnCard from "./btncard";
-import FeaturedData from "./database/featureddata";
+import FeaturedData from "../database/featureddata";
 
 function Featured(){
     return (

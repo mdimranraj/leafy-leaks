@@ -1,7 +1,7 @@
 import React from  'react';
 import { createElement } from "react";
 import BtnCard from "./btncard";
-import DecorativeData from "./database/decorativedata";
+import DecorativeData from "../database/decorativedata";
 
 function Decoration(){
     return (
