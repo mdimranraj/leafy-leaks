@@ -14,6 +14,7 @@ import Decoration from './components/decoration';
 import Featured from './components/featured';
 import Register from './pages/register';
 import Login from './pages/login';
+import NotFound from './components/notfound';
 
 
 function App() {
@@ -29,6 +30,17 @@ function App() {
               <Route path='/plantroom' element={<PlantRoom currState={str}/>}>
                 <Route path='decoration' element={<Decoration/>} />
                 <Route path='featured' element={<Featured/>} />
+                <Route path='ayurvedic' element={<NotFound/>} />
+                <Route path='crops' element={<NotFound/>} />
+                <Route path='bonsai' element={<NotFound/>} />
+                <Route path='vegetables' element={<NotFound/>} />
+                <Route path='fruits' element={<NotFound/>} />
+                <Route path='pulses' element={<NotFound/>} />
+                <Route path='trees' element={<NotFound/>} />
+                <Route path='herbs' element={<NotFound/>} />
+                <Route path='climbers' element={<NotFound/>} />
+                <Route path='creepers' element={<NotFound/>} />
+                <Route path='*' element={<NotFound/>} />
               </Route>  
               <Route path='/blogs' element={<Blogs/>} />
               <Route path='/aboutus' element={<AboutUs/>} />

@@ -6,7 +6,7 @@ function BtnCard(props) {
         <div>
 
             <div className="btncard-container">
-                <Card  eachCard={props.eachData} />
+                <Card eachCard={props.eachData} />
             </div>
 
         </div>
