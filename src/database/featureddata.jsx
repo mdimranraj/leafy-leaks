@@ -1,6 +1,6 @@
 const FeaturedData = [
     {
-        id : "",
+        id : "FRS0",
         plantName : "Rose",
         scientificDetails: {
             scientificName: "",
@@ -16,7 +16,7 @@ const FeaturedData = [
     }
     ,
     {
-        id : "",
+        id : "FLL1",
     
         plantName : "Lily",
     
@@ -39,7 +39,7 @@ const FeaturedData = [
     }
     ,
     {
-        id : "",
+        id : "FOC2",
     
         plantName : "Orchid",
     
@@ -64,7 +64,7 @@ const FeaturedData = [
     ,
     
     {
-        id : "",
+        id : "FTL3",
     
         plantName : "Tulip",
     
@@ -87,7 +87,7 @@ const FeaturedData = [
     }
     ,
     {
-        id : "",
+        id : "FDI4",
     
         plantName : "Daisy",
     

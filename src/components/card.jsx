@@ -12,12 +12,6 @@ function Card(props) {
                 <p className="card-text">{props.eachCard.plantName}</p>
               </div>
         </div>
-
-        {/* <UserContext.Provider value={'Imran'}>
-        <ScoreContext.Provider value={89}>
-          <PlantDetails />
-        </ScoreContext.Provider>
-      </UserContext.Provider> */}
  
       </div>
     );
@@ -25,5 +19,3 @@ function Card(props) {
 
 
 export default Card;
-// export const ScoreContext = React.createContext();
-// export const UserContext = React.createContext();
