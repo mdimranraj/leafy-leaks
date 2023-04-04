@@ -11,75 +11,37 @@ function Carousel(){
         <div class="slide-track">
             
             <div class="slide">
-                {/* <a href="\plantdetails"> <Card eachCard={FeaturedData[0]}/> </a> */}
-                <Link to={`/plantdetails/${FeaturedData[0].id}`}>
                     <Card eachCard={FeaturedData[0]}/>
-                </Link>
-            
             </div>
             <div class="slide">
-            {/* <a href="\plantdetails"> <Card eachCard={FeaturedData[1]}/> </a> */}
-            <Link to={`/plantdetails/${FeaturedData[1].id}`}>
-                    <Card eachCard={FeaturedData[1]}/>
-                </Link>
-                
+                    <Card eachCard={FeaturedData[1]}/>   
             </div>
             <div class="slide">
-            {/* <a href="\plantdetails"> <Card eachCard={FeaturedData[2]}/> </a> */}
-            <Link to={`/plantdetails/${FeaturedData[2].id}`}>
-                    <Card eachCard={FeaturedData[2]}/>
-                </Link>
-                
+                    <Card eachCard={FeaturedData[2]}/>              
             </div>
             <div class="slide">
-            {/* <a href="\plantdetails"> <Card eachCard={FeaturedData[3]}/>  </a> */}
-            <Link to={`/plantdetails/${FeaturedData[3].id}`}>
                     <Card eachCard={FeaturedData[3]}/>
-                </Link>
-               
             </div>
             <div class="slide">
-            {/* <a href="\plantdetails"> <Card eachCard={FeaturedData[4]}/> </a> */}
-            <Link to={`/plantdetails/${FeaturedData[4].id}`}>
-                    <Card eachCard={FeaturedData[4]}/>
-                </Link>
-                
+                    <Card eachCard={FeaturedData[4]}/>  
             </div>
             <div class="slide">
-            {/* <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a> */}
-            <Link to={`/plantdetails/${FeaturedData[3].id}`}>
                     <Card eachCard={FeaturedData[3]}/>
-                </Link>
             </div>
             <div class="slide">
-            {/* <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a> */}
-            <Link to={`/plantdetails/${FeaturedData[2].id}`}>
-                    <Card eachCard={FeaturedData[2]}/>
-                </Link>
-               
+                    <Card eachCard={FeaturedData[2]}/>         
             </div>
             <div class="slide">
-            {/* <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a> */}
-            <Link to={`/plantdetails/${FeaturedData[1].id}`}>
                     <Card eachCard={FeaturedData[1]}/>
-                </Link>
-               
+            </div>
+
+            <div class="slide">
+                    <Card eachCard={FeaturedData[0]}/>
             </div>
 
             <div class="slide">
             {/* <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a> */}
-            <Link to={`/plantdetails/${FeaturedData[0].id}`}>
-                    <Card eachCard={FeaturedData[0]}/>
-                </Link>
-               
-            </div>
-
-            <div class="slide">
-            {/* <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a> */}
-            <Link to={`/plantdetails/${FeaturedData[3].id}`}>
                     <Card eachCard={FeaturedData[3]}/>
-                </Link>
-                
             </div>
             
         </div>

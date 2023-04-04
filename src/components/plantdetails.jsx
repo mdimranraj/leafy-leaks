@@ -7,12 +7,9 @@ import DecorativeData from '../database/decorativedata';
 // import { useContext } from 'react';
 // import { ScoreContext , UserContext} from './card';
 
-const det = {
-    plantName: "rose"
-}
 function PlantDetails(){
     const { id } = useParams();
-    // const card = id < FeaturedData.length ? FeaturedData[id] : DecorativeData[id - FeaturedData.length];
+    
     const cardData = FeaturedData.concat(DecorativeData).filter((card)=> card.id === id)
     const card = cardData[0]; 
 

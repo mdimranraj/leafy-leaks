@@ -7,9 +7,6 @@ function BtnCard(props) {
 
             <div className="btncard-container">
                 <Card  eachCard={props.eachData} />
-                <div className="btn-container">
-                    <button type="button" class="btn btn-success round">Success</button>
-                </div>
             </div>
 
         </div>
