@@ -7,39 +7,39 @@ import DecorativeData from '../database/decorativedata';
 function Carousel(){
     return (
 
-        <div class="slider">
-        <div class="slide-track">
+        <div className="slider">
+        <div className="slide-track">
             
-            <div class="slide">
+            <div className="slide">
                     <Card eachCard={FeaturedData[0]}/>
             </div>
-            <div class="slide">
+            <div className="slide">
                     <Card eachCard={FeaturedData[1]}/>   
             </div>
-            <div class="slide">
+            <div className="slide">
                     <Card eachCard={FeaturedData[2]}/>              
             </div>
-            <div class="slide">
+            <div className="slide">
                     <Card eachCard={FeaturedData[3]}/>
             </div>
-            <div class="slide">
+            <div className="slide">
                     <Card eachCard={FeaturedData[4]}/>  
             </div>
-            <div class="slide">
+            <div className="slide">
                     <Card eachCard={FeaturedData[3]}/>
             </div>
-            <div class="slide">
+            <div className="slide">
                     <Card eachCard={FeaturedData[2]}/>         
             </div>
-            <div class="slide">
+            <div className="slide">
                     <Card eachCard={FeaturedData[1]}/>
             </div>
 
-            <div class="slide">
+            <div className="slide">
                     <Card eachCard={FeaturedData[0]}/>
             </div>
 
-            <div class="slide">
+            <div className="slide">
             {/* <a href="\plantdetails"> <Card eachCard={DecorativeData[0]}/> </a> */}
                     <Card eachCard={FeaturedData[3]}/>
             </div>

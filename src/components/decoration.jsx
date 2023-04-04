@@ -9,7 +9,7 @@ function Decoration(){
                 <h2>Decorative Plants</h2>
 
                 <div className="frequent-container" >
-                    {DecorativeData.map((eachDecData)=>  createElement(BtnCard , {eachData : eachDecData})    )}
+                    {DecorativeData.map((eachDecData)=>  createElement(BtnCard , {eachData : eachDecData}))}
                     
                 </div>
         </div>
